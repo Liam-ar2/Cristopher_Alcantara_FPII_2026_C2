@@ -1,0 +1,103 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Globalization;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Loteria
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnnueva_Click(object sender, EventArgs e)
+        {
+            txtdinero.Text = "";
+            txtnumero.Text = "";
+            txtprimera.Text = "--";
+            txtsegunda.Text = "--";
+            txttercera.Text = "--";
+            txtresultado.Text = "Ingresa tus datos y presiona jugar";
+        }
+
+        private void btnjugar_Click(object sender, EventArgs e)
+        {
+            Random GeneradorNum = new Random();
+            int primera = GeneradorNum.Next(0, 100);
+            int segunda = GeneradorNum.Next(0, 100);
+            int tercera = GeneradorNum.Next(0, 100);
+
+            // Display generated numbers
+            txtprimera.Text = primera.ToString();
+            txtsegunda.Text = segunda.ToString();
+            txttercera.Text = tercera.ToString();
+
+            // Validate and parse inputs safely
+            if (!double.TryParse(txtdinero.Text, NumberStyles.Number, CultureInfo.CurrentCulture, out double CantidadDin) || CantidadDin <= 0)
+            {
+                MessageBox.Show("Ingrese una cantidad de dinero válida.", "Entrada inválida", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            if (!int.TryParse(txtnumero.Text, NumberStyles.Integer, CultureInfo.CurrentCulture, out int Numero) || Numero < 0 || Numero > 99)
+            {
+                MessageBox.Show("Ingrese un número válido entre 0 y 99.", "Entrada inválida", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            // Determine result and show prize in txtresultado while keeping the generated numbers visible
+            if (Numero == primera)
+            {
+                double premio = CantidadDin * 1000;
+                txtresultado.Text = $"¡Ganaste! Premio: {premio}";
+            }
+            else if (Numero == segunda)
+            {
+                double premio = CantidadDin * 500;
+                txtresultado.Text = $"¡Segundo lugar! Premio: {premio}";
+            }
+            else if (Numero == tercera)
+            {
+                double premio = CantidadDin * 250;
+                txtresultado.Text = $"¡Tercer lugar! Premio: {premio}";
+            }
+            else
+            {
+                txtresultado.Text = "No ganaste. Intenta de nuevo.";
+            }
+        }
+    }
+}

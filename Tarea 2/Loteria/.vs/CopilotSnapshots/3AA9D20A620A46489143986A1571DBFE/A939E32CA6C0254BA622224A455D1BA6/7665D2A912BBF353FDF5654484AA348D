@@ -1,0 +1,81 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Loteria
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnnueva_Click(object sender, EventArgs e)
+        {
+            txtdinero.Text = "";
+            txtnumero.Text = "";
+            txtprimera.Text = "--";
+            txtsegunda.Text = "--";
+            txttercera.Text = "--";
+            txtresultado.Text = "Ingresa tus datos y presiona jugar";
+        }
+
+        private void btnjugar_Click(object sender, EventArgs e)
+        {
+
+            Random GeneradorNum = new Random();
+            int primera = GeneradorNum.Next(0, 100);
+            int segunda = GeneradorNum.Next(0, 100);
+            int tercera = GeneradorNum.Next(0, 100);
+
+            txtprimera.Text = primera.ToString();
+            txtsegunda.Text = segunda.ToString();
+            txttercera.Text = tercera.ToString();
+
+            double CantidadDin = Convert.ToDouble(txtdinero.Text);
+            int Numero = Convert.ToInt32(txtnumero.Text);
+
+            if (Numero == primera)
+             {
+               double premio = CantidadDin * 1000;
+               txtprimera.Text = premio.ToString();
+             }
+            else if(Numero == segunda)
+            {
+
+            }
+        }
+    }
+}
