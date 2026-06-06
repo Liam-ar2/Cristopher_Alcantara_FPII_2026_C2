@@ -1,0 +1,35 @@
+C:\Users\operator\Desktop\Cristopher_Alcantara_FPII_2026_C2\Tarea 3\Loto MQTT\Loto MQTT\bin\Debug\Loto MQTT.exe.config
+C:\Users\operator\Desktop\Cristopher_Alcantara_FPII_2026_C2\Tarea 3\Loto MQTT\Loto MQTT\bin\Debug\Loto MQTT.exe
+C:\Users\operator\Desktop\Cristopher_Alcantara_FPII_2026_C2\Tarea 3\Loto MQTT\Loto MQTT\bin\Debug\Loto MQTT.pdb
+C:\Users\operator\Desktop\Cristopher_Alcantara_FPII_2026_C2\Tarea 3\Loto MQTT\Loto MQTT\obj\Debug\Loto MQTT.csproj.AssemblyReference.cache
+C:\Users\operator\Desktop\Cristopher_Alcantara_FPII_2026_C2\Tarea 3\Loto MQTT\Loto MQTT\obj\Debug\Loto_MQTT.Form1.resources
+C:\Users\operator\Desktop\Cristopher_Alcantara_FPII_2026_C2\Tarea 3\Loto MQTT\Loto MQTT\obj\Debug\Loto_MQTT.Properties.Resources.resources
+C:\Users\operator\Desktop\Cristopher_Alcantara_FPII_2026_C2\Tarea 3\Loto MQTT\Loto MQTT\obj\Debug\Loto MQTT.csproj.GenerateResource.cache
+C:\Users\operator\Desktop\Cristopher_Alcantara_FPII_2026_C2\Tarea 3\Loto MQTT\Loto MQTT\obj\Debug\Loto MQTT.csproj.CoreCompileInputs.cache
+C:\Users\operator\Desktop\Cristopher_Alcantara_FPII_2026_C2\Tarea 3\Loto MQTT\Loto MQTT\obj\Debug\Loto MQTT.exe
+C:\Users\operator\Desktop\Cristopher_Alcantara_FPII_2026_C2\Tarea 3\Loto MQTT\Loto MQTT\obj\Debug\Loto MQTT.pdb
+C:\Users\operator\Desktop\Cristopher_Alcantara_FPII_2026_C2\Tarea 3\Loto MQTT\Loto MQTT\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\operator\Desktop\Cristopher_Alcantara_FPII_2026_C2\Tarea 3\Loto MQTT\Loto MQTT\bin\Debug\MQTTnet.dll
+C:\Users\operator\Desktop\Cristopher_Alcantara_FPII_2026_C2\Tarea 3\Loto MQTT\Loto MQTT\bin\Debug\MQTTnet.Extensions.ManagedClient.dll
+C:\Users\operator\Desktop\Cristopher_Alcantara_FPII_2026_C2\Tarea 3\Loto MQTT\Loto MQTT\bin\Debug\Newtonsoft.Json.dll
+C:\Users\operator\Desktop\Cristopher_Alcantara_FPII_2026_C2\Tarea 3\Loto MQTT\Loto MQTT\bin\Debug\System.Buffers.dll
+C:\Users\operator\Desktop\Cristopher_Alcantara_FPII_2026_C2\Tarea 3\Loto MQTT\Loto MQTT\bin\Debug\System.IO.Pipelines.dll
+C:\Users\operator\Desktop\Cristopher_Alcantara_FPII_2026_C2\Tarea 3\Loto MQTT\Loto MQTT\bin\Debug\System.Memory.dll
+C:\Users\operator\Desktop\Cristopher_Alcantara_FPII_2026_C2\Tarea 3\Loto MQTT\Loto MQTT\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\operator\Desktop\Cristopher_Alcantara_FPII_2026_C2\Tarea 3\Loto MQTT\Loto MQTT\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\operator\Desktop\Cristopher_Alcantara_FPII_2026_C2\Tarea 3\Loto MQTT\Loto MQTT\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\operator\Desktop\Cristopher_Alcantara_FPII_2026_C2\Tarea 3\Loto MQTT\Loto MQTT\bin\Debug\System.Text.Json.dll
+C:\Users\operator\Desktop\Cristopher_Alcantara_FPII_2026_C2\Tarea 3\Loto MQTT\Loto MQTT\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\operator\Desktop\Cristopher_Alcantara_FPII_2026_C2\Tarea 3\Loto MQTT\Loto MQTT\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\operator\Desktop\Cristopher_Alcantara_FPII_2026_C2\Tarea 3\Loto MQTT\Loto MQTT\bin\Debug\MQTTnet.xml
+C:\Users\operator\Desktop\Cristopher_Alcantara_FPII_2026_C2\Tarea 3\Loto MQTT\Loto MQTT\bin\Debug\MQTTnet.Extensions.ManagedClient.xml
+C:\Users\operator\Desktop\Cristopher_Alcantara_FPII_2026_C2\Tarea 3\Loto MQTT\Loto MQTT\bin\Debug\Newtonsoft.Json.xml
+C:\Users\operator\Desktop\Cristopher_Alcantara_FPII_2026_C2\Tarea 3\Loto MQTT\Loto MQTT\bin\Debug\System.Buffers.xml
+C:\Users\operator\Desktop\Cristopher_Alcantara_FPII_2026_C2\Tarea 3\Loto MQTT\Loto MQTT\bin\Debug\System.IO.Pipelines.xml
+C:\Users\operator\Desktop\Cristopher_Alcantara_FPII_2026_C2\Tarea 3\Loto MQTT\Loto MQTT\bin\Debug\System.Memory.xml
+C:\Users\operator\Desktop\Cristopher_Alcantara_FPII_2026_C2\Tarea 3\Loto MQTT\Loto MQTT\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\operator\Desktop\Cristopher_Alcantara_FPII_2026_C2\Tarea 3\Loto MQTT\Loto MQTT\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\operator\Desktop\Cristopher_Alcantara_FPII_2026_C2\Tarea 3\Loto MQTT\Loto MQTT\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\operator\Desktop\Cristopher_Alcantara_FPII_2026_C2\Tarea 3\Loto MQTT\Loto MQTT\bin\Debug\System.Text.Json.xml
+C:\Users\operator\Desktop\Cristopher_Alcantara_FPII_2026_C2\Tarea 3\Loto MQTT\Loto MQTT\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\operator\Desktop\Cristopher_Alcantara_FPII_2026_C2\Tarea 3\Loto MQTT\Loto MQTT\obj\Debug\Loto MQTT.csproj.Up2Date
