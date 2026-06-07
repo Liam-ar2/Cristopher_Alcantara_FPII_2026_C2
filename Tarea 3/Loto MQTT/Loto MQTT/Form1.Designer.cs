@@ -1,0 +1,475 @@
+﻿namespace Loto_MQTT
+{
+    partial class Form1
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.txtresultado = new System.Windows.Forms.TextBox();
+            this.lb3 = new System.Windows.Forms.Label();
+            this.txttercera = new System.Windows.Forms.TextBox();
+            this.txtsegunda = new System.Windows.Forms.TextBox();
+            this.txtprimera = new System.Windows.Forms.TextBox();
+            this.lb5 = new System.Windows.Forms.Label();
+            this.lb4 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txtnombre = new System.Windows.Forms.TextBox();
+            this.lb2 = new System.Windows.Forms.Label();
+            this.btnjugar = new System.Windows.Forms.Button();
+            this.btnnueva = new System.Windows.Forms.Button();
+            this.lb1 = new System.Windows.Forms.Label();
+            this.txtdinero = new System.Windows.Forms.TextBox();
+            this.txtnumero = new System.Windows.Forms.TextBox();
+            this.lb8 = new System.Windows.Forms.Label();
+            this.lb7 = new System.Windows.Forms.Label();
+            this.lb6 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.label6 = new System.Windows.Forms.Label();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.lb9 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panel2.SuspendLayout();
+            this.panel3.SuspendLayout();
+            this.panel4.SuspendLayout();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // txtresultado
+            // 
+            this.txtresultado.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(35)))), ((int)(((byte)(52)))));
+            this.txtresultado.Cursor = System.Windows.Forms.Cursors.No;
+            this.txtresultado.Font = new System.Drawing.Font("Segoe UI Emoji", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtresultado.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.txtresultado.Location = new System.Drawing.Point(152, 53);
+            this.txtresultado.Multiline = true;
+            this.txtresultado.Name = "txtresultado";
+            this.txtresultado.ReadOnly = true;
+            this.txtresultado.Size = new System.Drawing.Size(397, 37);
+            this.txtresultado.TabIndex = 6;
+            this.txtresultado.Text = "Ingresa tus datos y presiona jugar";
+            this.txtresultado.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // lb3
+            // 
+            this.lb3.AutoSize = true;
+            this.lb3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(35)))), ((int)(((byte)(52)))));
+            this.lb3.Font = new System.Drawing.Font("Segoe UI Emoji", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(193)))), ((int)(((byte)(7)))));
+            this.lb3.Location = new System.Drawing.Point(50, 30);
+            this.lb3.Name = "lb3";
+            this.lb3.Size = new System.Drawing.Size(113, 20);
+            this.lb3.TabIndex = 15;
+            this.lb3.Text = " 🥇 PRIMERA:";
+            // 
+            // txttercera
+            // 
+            this.txttercera.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txttercera.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(35)))), ((int)(((byte)(52)))));
+            this.txttercera.Cursor = System.Windows.Forms.Cursors.No;
+            this.txttercera.Font = new System.Drawing.Font("Segoe UI Emoji", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txttercera.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.txttercera.Location = new System.Drawing.Point(503, 53);
+            this.txttercera.Multiline = true;
+            this.txttercera.Name = "txttercera";
+            this.txttercera.ReadOnly = true;
+            this.txttercera.Size = new System.Drawing.Size(182, 37);
+            this.txttercera.TabIndex = 16;
+            this.txttercera.Text = "--";
+            this.txttercera.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtsegunda
+            // 
+            this.txtsegunda.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtsegunda.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(35)))), ((int)(((byte)(52)))));
+            this.txtsegunda.Cursor = System.Windows.Forms.Cursors.No;
+            this.txtsegunda.Font = new System.Drawing.Font("Segoe UI Emoji", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtsegunda.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.txtsegunda.Location = new System.Drawing.Point(258, 53);
+            this.txtsegunda.Multiline = true;
+            this.txtsegunda.Name = "txtsegunda";
+            this.txtsegunda.ReadOnly = true;
+            this.txtsegunda.Size = new System.Drawing.Size(182, 37);
+            this.txtsegunda.TabIndex = 15;
+            this.txtsegunda.Text = "--";
+            this.txtsegunda.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtprimera
+            // 
+            this.txtprimera.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtprimera.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(35)))), ((int)(((byte)(52)))));
+            this.txtprimera.Cursor = System.Windows.Forms.Cursors.No;
+            this.txtprimera.Font = new System.Drawing.Font("Segoe UI Emoji", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtprimera.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.txtprimera.Location = new System.Drawing.Point(21, 53);
+            this.txtprimera.Multiline = true;
+            this.txtprimera.Name = "txtprimera";
+            this.txtprimera.ReadOnly = true;
+            this.txtprimera.Size = new System.Drawing.Size(182, 37);
+            this.txtprimera.TabIndex = 14;
+            this.txtprimera.Text = "--";
+            this.txtprimera.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // lb5
+            // 
+            this.lb5.AutoSize = true;
+            this.lb5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(35)))), ((int)(((byte)(52)))));
+            this.lb5.Font = new System.Drawing.Font("Segoe UI Emoji", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(127)))), ((int)(((byte)(50)))));
+            this.lb5.Location = new System.Drawing.Point(541, 30);
+            this.lb5.Name = "lb5";
+            this.lb5.Size = new System.Drawing.Size(108, 20);
+            this.lb5.TabIndex = 18;
+            this.lb5.Text = "🥉 TERCERA:";
+            // 
+            // lb4
+            // 
+            this.lb4.AutoSize = true;
+            this.lb4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(35)))), ((int)(((byte)(52)))));
+            this.lb4.Font = new System.Drawing.Font("Segoe UI Emoji", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb4.ForeColor = System.Drawing.Color.Silver;
+            this.lb4.Location = new System.Drawing.Point(287, 30);
+            this.lb4.Name = "lb4";
+            this.lb4.Size = new System.Drawing.Size(120, 20);
+            this.lb4.TabIndex = 17;
+            this.lb4.Text = " 🥈 SEGUNDA:";
+            // 
+            // panel2
+            // 
+            this.panel2.BackgroundImage = global::Loto_MQTT.Properties.Resources.Diseño_sin_título__3_;
+            this.panel2.Controls.Add(this.label1);
+            this.panel2.Controls.Add(this.txtnombre);
+            this.panel2.Controls.Add(this.lb2);
+            this.panel2.Controls.Add(this.btnjugar);
+            this.panel2.Controls.Add(this.btnnueva);
+            this.panel2.Controls.Add(this.lb1);
+            this.panel2.Controls.Add(this.txtdinero);
+            this.panel2.Controls.Add(this.txtnumero);
+            this.panel2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.panel2.Location = new System.Drawing.Point(12, 136);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(725, 265);
+            this.panel2.TabIndex = 19;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(35)))), ((int)(((byte)(52)))));
+            this.label1.Font = new System.Drawing.Font("Georgia", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label1.Location = new System.Drawing.Point(269, 42);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(167, 18);
+            this.label1.TabIndex = 16;
+            this.label1.Text = "Nombre del jugador:";
+            // 
+            // txtnombre
+            // 
+            this.txtnombre.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtnombre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(35)))), ((int)(((byte)(52)))));
+            this.txtnombre.Font = new System.Drawing.Font("Segoe UI Emoji", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtnombre.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.txtnombre.Location = new System.Drawing.Point(205, 63);
+            this.txtnombre.Multiline = true;
+            this.txtnombre.Name = "txtnombre";
+            this.txtnombre.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.txtnombre.Size = new System.Drawing.Size(300, 37);
+            this.txtnombre.TabIndex = 15;
+            this.txtnombre.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // lb2
+            // 
+            this.lb2.AutoSize = true;
+            this.lb2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(35)))), ((int)(((byte)(52)))));
+            this.lb2.Font = new System.Drawing.Font("Georgia", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lb2.Location = new System.Drawing.Point(391, 129);
+            this.lb2.Name = "lb2";
+            this.lb2.Size = new System.Drawing.Size(197, 18);
+            this.lb2.TabIndex = 14;
+            this.lb2.Text = " Número a jugar (0–99):";
+            // 
+            // btnjugar
+            // 
+            this.btnjugar.BackgroundImage = global::Loto_MQTT.Properties.Resources.Diseño_sin_título__3_;
+            this.btnjugar.Font = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnjugar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnjugar.Location = new System.Drawing.Point(374, 193);
+            this.btnjugar.Name = "btnjugar";
+            this.btnjugar.Size = new System.Drawing.Size(234, 44);
+            this.btnjugar.TabIndex = 13;
+            this.btnjugar.Text = "▶  JUGAR";
+            this.btnjugar.UseVisualStyleBackColor = true;
+            this.btnjugar.Click += new System.EventHandler(this.btnjugar_Click);
+            // 
+            // btnnueva
+            // 
+            this.btnnueva.BackgroundImage = global::Loto_MQTT.Properties.Resources.Diseño_sin_título__3_;
+            this.btnnueva.Font = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnnueva.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnnueva.Location = new System.Drawing.Point(89, 193);
+            this.btnnueva.Name = "btnnueva";
+            this.btnnueva.Size = new System.Drawing.Size(234, 44);
+            this.btnnueva.TabIndex = 12;
+            this.btnnueva.Text = "✦  NUEVA JUGADA";
+            this.btnnueva.UseVisualStyleBackColor = true;
+            this.btnnueva.Click += new System.EventHandler(this.btnnueva_Click);
+            // 
+            // lb1
+            // 
+            this.lb1.AutoSize = true;
+            this.lb1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(35)))), ((int)(((byte)(52)))));
+            this.lb1.Font = new System.Drawing.Font("Georgia", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lb1.Location = new System.Drawing.Point(106, 129);
+            this.lb1.Name = "lb1";
+            this.lb1.Size = new System.Drawing.Size(195, 18);
+            this.lb1.TabIndex = 6;
+            this.lb1.Text = " Dinero apostado (RD$):";
+            // 
+            // txtdinero
+            // 
+            this.txtdinero.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtdinero.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(35)))), ((int)(((byte)(52)))));
+            this.txtdinero.Font = new System.Drawing.Font("Segoe UI Emoji", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtdinero.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.txtdinero.Location = new System.Drawing.Point(89, 150);
+            this.txtdinero.Multiline = true;
+            this.txtdinero.Name = "txtdinero";
+            this.txtdinero.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.txtdinero.Size = new System.Drawing.Size(234, 37);
+            this.txtdinero.TabIndex = 4;
+            this.txtdinero.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtnumero
+            // 
+            this.txtnumero.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(35)))), ((int)(((byte)(52)))));
+            this.txtnumero.Font = new System.Drawing.Font("Segoe UI Emoji", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtnumero.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.txtnumero.Location = new System.Drawing.Point(374, 150);
+            this.txtnumero.Multiline = true;
+            this.txtnumero.Name = "txtnumero";
+            this.txtnumero.Size = new System.Drawing.Size(234, 37);
+            this.txtnumero.TabIndex = 5;
+            this.txtnumero.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtnumero.TextChanged += new System.EventHandler(this.txtnumero_TextChanged);
+            // 
+            // lb8
+            // 
+            this.lb8.AutoSize = true;
+            this.lb8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(35)))), ((int)(((byte)(52)))));
+            this.lb8.Font = new System.Drawing.Font("Segoe UI Emoji", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(127)))), ((int)(((byte)(50)))));
+            this.lb8.Location = new System.Drawing.Point(577, 120);
+            this.lb8.Name = "lb8";
+            this.lb8.Size = new System.Drawing.Size(34, 17);
+            this.lb8.TabIndex = 21;
+            this.lb8.Text = "×10";
+            // 
+            // lb7
+            // 
+            this.lb7.AutoSize = true;
+            this.lb7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(35)))), ((int)(((byte)(52)))));
+            this.lb7.Font = new System.Drawing.Font("Segoe UI Emoji", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb7.ForeColor = System.Drawing.Color.Silver;
+            this.lb7.Location = new System.Drawing.Point(326, 120);
+            this.lb7.Name = "lb7";
+            this.lb7.Size = new System.Drawing.Size(42, 17);
+            this.lb7.TabIndex = 20;
+            this.lb7.Text = "×100";
+            // 
+            // lb6
+            // 
+            this.lb6.AutoSize = true;
+            this.lb6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(35)))), ((int)(((byte)(52)))));
+            this.lb6.Font = new System.Drawing.Font("Segoe UI Emoji", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(193)))), ((int)(((byte)(7)))));
+            this.lb6.Location = new System.Drawing.Point(84, 120);
+            this.lb6.Name = "lb6";
+            this.lb6.Size = new System.Drawing.Size(54, 17);
+            this.lb6.TabIndex = 19;
+            this.lb6.Text = "×1,000";
+            // 
+            // panel3
+            // 
+            this.panel3.BackgroundImage = global::Loto_MQTT.Properties.Resources.Diseño_sin_título__3_;
+            this.panel3.Controls.Add(this.lb8);
+            this.panel3.Controls.Add(this.lb7);
+            this.panel3.Controls.Add(this.lb6);
+            this.panel3.Controls.Add(this.lb5);
+            this.panel3.Controls.Add(this.lb4);
+            this.panel3.Controls.Add(this.lb3);
+            this.panel3.Controls.Add(this.txttercera);
+            this.panel3.Controls.Add(this.txtsegunda);
+            this.panel3.Controls.Add(this.txtprimera);
+            this.panel3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.panel3.Location = new System.Drawing.Point(14, 407);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(725, 110);
+            this.panel3.TabIndex = 20;
+            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label6.Location = new System.Drawing.Point(331, 30);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(0, 13);
+            this.label6.TabIndex = 11;
+            // 
+            // panel4
+            // 
+            this.panel4.BackgroundImage = global::Loto_MQTT.Properties.Resources.Diseño_sin_título__3_;
+            this.panel4.Controls.Add(this.lb9);
+            this.panel4.Controls.Add(this.txtresultado);
+            this.panel4.Controls.Add(this.label6);
+            this.panel4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.panel4.Location = new System.Drawing.Point(14, 523);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(725, 110);
+            this.panel4.TabIndex = 21;
+            this.panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
+            // 
+            // lb9
+            // 
+            this.lb9.AutoSize = true;
+            this.lb9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(35)))), ((int)(((byte)(52)))));
+            this.lb9.Font = new System.Drawing.Font("Segoe UI Emoji", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb9.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lb9.Location = new System.Drawing.Point(290, 30);
+            this.lb9.Name = "lb9";
+            this.lb9.Size = new System.Drawing.Size(115, 20);
+            this.lb9.TabIndex = 19;
+            this.lb9.Text = "🏆 Resultado:";
+            // 
+            // panel1
+            // 
+            this.panel1.BackgroundImage = global::Loto_MQTT.Properties.Resources.Diseño_sin_título__3_;
+            this.panel1.Controls.Add(this.panel6);
+            this.panel1.Controls.Add(this.panel5);
+            this.panel1.Controls.Add(this.pictureBox1);
+            this.panel1.Location = new System.Drawing.Point(1, -2);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(783, 121);
+            this.panel1.TabIndex = 18;
+            // 
+            // panel6
+            // 
+            this.panel6.BackgroundImage = global::Loto_MQTT.Properties.Resources.Diseño_sin_título__5_;
+            this.panel6.Location = new System.Drawing.Point(0, 115);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(783, 5);
+            this.panel6.TabIndex = 1;
+            // 
+            // panel5
+            // 
+            this.panel5.Location = new System.Drawing.Point(-8, 151);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(795, 10);
+            this.panel5.TabIndex = 0;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = global::Loto_MQTT.Properties.Resources.LOTOFORTUNA;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Location = new System.Drawing.Point(-22, -49);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(351, 241);
+            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabStop = false;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::Loto_MQTT.Properties.Resources.Diseño_sin_título__1_;
+            this.ClientSize = new System.Drawing.Size(751, 644);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.panel4);
+            this.Name = "Form1";
+            this.Text = "Form1";
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.TextBox txtresultado;
+        private System.Windows.Forms.Label lb3;
+        private System.Windows.Forms.TextBox txttercera;
+        private System.Windows.Forms.TextBox txtsegunda;
+        private System.Windows.Forms.TextBox txtprimera;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Label lb5;
+        private System.Windows.Forms.Label lb4;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Label lb2;
+        private System.Windows.Forms.Button btnjugar;
+        private System.Windows.Forms.Button btnnueva;
+        private System.Windows.Forms.Label lb1;
+        private System.Windows.Forms.TextBox txtdinero;
+        private System.Windows.Forms.TextBox txtnumero;
+        private System.Windows.Forms.Label lb8;
+        private System.Windows.Forms.Label lb7;
+        private System.Windows.Forms.Label lb6;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Label lb9;
+        private System.Windows.Forms.Panel panel6;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox txtnombre;
+    }
+}
+
