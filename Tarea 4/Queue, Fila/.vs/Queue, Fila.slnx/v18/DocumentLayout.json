@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\operator\\Desktop\\Cristopher_Alcantara_FPII_2026_C2\\Tarea 4\\Queue, Fila\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DD3FD867-D9CD-4924-BB9B-3CE377DBF245}|Queue, Fila\\Queue, Fila.csproj|c:\\users\\operator\\desktop\\cristopher_alcantara_fpii_2026_c2\\tarea 4\\queue, fila\\queue, fila\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD3FD867-D9CD-4924-BB9B-3CE377DBF245}|Queue, Fila\\Queue, Fila.csproj|solutionrelative:queue, fila\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD3FD867-D9CD-4924-BB9B-3CE377DBF245}|Queue, Fila\\Queue, Fila.csproj|c:\\users\\operator\\desktop\\cristopher_alcantara_fpii_2026_c2\\tarea 4\\queue, fila\\queue, fila\\cqueque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD3FD867-D9CD-4924-BB9B-3CE377DBF245}|Queue, Fila\\Queue, Fila.csproj|solutionrelative:queue, fila\\cqueque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD3FD867-D9CD-4924-BB9B-3CE377DBF245}|Queue, Fila\\Queue, Fila.csproj|c:\\users\\operator\\desktop\\cristopher_alcantara_fpii_2026_c2\\tarea 4\\queue, fila\\queue, fila\\cnodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD3FD867-D9CD-4924-BB9B-3CE377DBF245}|Queue, Fila\\Queue, Fila.csproj|solutionrelative:queue, fila\\cnodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CQueque.cs",
+              "DocumentMoniker": "C:\\Users\\operator\\Desktop\\Cristopher_Alcantara_FPII_2026_C2\\Tarea 4\\Queue, Fila\\Queue, Fila\\CQueque.cs",
+              "RelativeDocumentMoniker": "Queue, Fila\\CQueque.cs",
+              "ToolTip": "C:\\Users\\operator\\Desktop\\Cristopher_Alcantara_FPII_2026_C2\\Tarea 4\\Queue, Fila\\Queue, Fila\\CQueque.cs",
+              "RelativeToolTip": "Queue, Fila\\CQueque.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-02T02:53:43.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CNodo.cs",
+              "DocumentMoniker": "C:\\Users\\operator\\Desktop\\Cristopher_Alcantara_FPII_2026_C2\\Tarea 4\\Queue, Fila\\Queue, Fila\\CNodo.cs",
+              "RelativeDocumentMoniker": "Queue, Fila\\CNodo.cs",
+              "ToolTip": "C:\\Users\\operator\\Desktop\\Cristopher_Alcantara_FPII_2026_C2\\Tarea 4\\Queue, Fila\\Queue, Fila\\CNodo.cs",
+              "RelativeToolTip": "Queue, Fila\\CNodo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-02T02:53:22.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\operator\\Desktop\\Cristopher_Alcantara_FPII_2026_C2\\Tarea 4\\Queue, Fila\\Queue, Fila\\Program.cs",
+              "RelativeDocumentMoniker": "Queue, Fila\\Program.cs",
+              "ToolTip": "C:\\Users\\operator\\Desktop\\Cristopher_Alcantara_FPII_2026_C2\\Tarea 4\\Queue, Fila\\Queue, Fila\\Program.cs",
+              "RelativeToolTip": "Queue, Fila\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-02T02:52:42.216Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
