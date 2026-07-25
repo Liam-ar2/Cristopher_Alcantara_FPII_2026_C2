@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\operator\\Desktop\\Cristopher_Alcantara_FPII_2026_C2\\Tarea 6\\RiskUp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9A9A9A9A-1111-2222-3333-444455556666}|RiskUp\\RiskUp.csproj|c:\\users\\operator\\desktop\\cristopher_alcantara_fpii_2026_c2\\tarea 6\\riskup\\riskup\\db\\riesgorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A9A9A9A-1111-2222-3333-444455556666}|RiskUp\\RiskUp.csproj|solutionrelative:riskup\\db\\riesgorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A9A9A9A-1111-2222-3333-444455556666}|RiskUp\\RiskUp.csproj|c:\\users\\operator\\desktop\\cristopher_alcantara_fpii_2026_c2\\tarea 6\\riskup\\riskup\\forms\\fases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A9A9A9A-1111-2222-3333-444455556666}|RiskUp\\RiskUp.csproj|solutionrelative:riskup\\forms\\fases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RiesgoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\operator\\Desktop\\Cristopher_Alcantara_FPII_2026_C2\\Tarea 6\\RiskUp\\RiskUp\\DB\\RiesgoRepository.cs",
+              "RelativeDocumentMoniker": "RiskUp\\DB\\RiesgoRepository.cs",
+              "ToolTip": "C:\\Users\\operator\\Desktop\\Cristopher_Alcantara_FPII_2026_C2\\Tarea 6\\RiskUp\\RiskUp\\DB\\RiesgoRepository.cs",
+              "RelativeToolTip": "RiskUp\\DB\\RiesgoRepository.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T04:03:03.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Fases.cs",
+              "DocumentMoniker": "C:\\Users\\operator\\Desktop\\Cristopher_Alcantara_FPII_2026_C2\\Tarea 6\\RiskUp\\RiskUp\\Forms\\Fases.cs",
+              "RelativeDocumentMoniker": "RiskUp\\Forms\\Fases.cs",
+              "ToolTip": "C:\\Users\\operator\\Desktop\\Cristopher_Alcantara_FPII_2026_C2\\Tarea 6\\RiskUp\\RiskUp\\Forms\\Fases.cs*",
+              "RelativeToolTip": "RiskUp\\Forms\\Fases.cs*",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T03:59:27.63Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
