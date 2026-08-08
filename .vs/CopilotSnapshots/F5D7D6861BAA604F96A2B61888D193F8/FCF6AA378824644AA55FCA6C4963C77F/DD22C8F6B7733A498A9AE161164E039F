@@ -1,0 +1,107 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Windows.Forms;
+using Proyecto.Models;
+using Proyecto.Services;
+using Proyecto.Utilities;
+
+namespace Proyecto.Forms
+{
+    public class FormVehiculos : Form
+    {
+        private DataGridView _grid;
+        private List<Vehiculo> _vehiculos;
+
+        public FormVehiculos()
+        {
+            InitializeUi();
+            Recargar();
+        }
+
+        private void InitializeUi()
+        {
+            Tablero.EstiloForm(this, 900, 560, "Administrar Vehiculos");
+            Tablero.Cabecera(this, "ADMINISTRAR VEHICULOS",
+                "Registre, edite o elimine los vehiculos que forman parte de su flota.");
+
+            Tablero.Boton(this, "NUEVO", 24, 96, 120, 36).Click += (s, e) => Nuevo();
+            Tablero.Boton(this, "EDITAR", 156, 96, 120, 36).Click += (s, e) => Editar();
+            Tablero.Boton(this, "ELIMINAR", 288, 96, 120, 36).Click += (s, e) => Eliminar();
+            Tablero.Boton(this, "CERRAR", 420, 96, 120, 36, false).Click += (s, e) => Close();
+
+            _grid = Tablero.Tabla(this, 14, 150, ClientSize.Width - 28, ClientSize.Height - 210);
+            _grid.Columns.Add(new DataGridViewTextBoxColumn { HeaderText = "ID", DataPropertyName = "Id", Width = 40 });
+            _grid.Columns.Add(new DataGridViewTextBoxColumn { HeaderText = "Placa", DataPropertyName = "Placa" });
+            _grid.Columns.Add(new DataGridViewTextBoxColumn { HeaderText = "Marca", DataPropertyName = "Marca" });
+            _grid.Columns.Add(new DataGridViewTextBoxColumn { HeaderText = "Modelo", DataPropertyName = "Modelo" });
+            _grid.Columns.Add(new DataGridViewTextBoxColumn { HeaderText = "Tipo", DataPropertyName = "TipoTexto" });
+            _grid.Columns.Add(new DataGridViewTextBoxColumn { HeaderText = "Pasajeros", DataPropertyName = "CapacidadPasajeros", Width = 80 });
+            _grid.Columns.Add(new DataGridViewTextBoxColumn { HeaderText = "Carga (kg)", DataPropertyName = "CapacidadCargaKg", Width = 90 });
+            _grid.Columns.Add(new DataGridViewTextBoxColumn { HeaderText = "Rendimiento", DataPropertyName = "RendimientoTexto" });
+            _grid.Columns.Add(new DataGridViewTextBoxColumn { HeaderText = "Km/mes", DataPropertyName = "KmMesTexto" });
+            _grid.Columns.Add(new DataGridViewTextBoxColumn { HeaderText = "Unidad", DataPropertyName = "UnidadTexto" });
+            _grid.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            _grid.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.None;
+            _grid.Columns["ID"].Frozen = true;
+
+            _grid.DoubleClick += (s, e) => Editar();
+        }
+
+        private void Recargar()
+        {
+            _vehiculos = VehiculoService.ObtenerTodos();
+            _grid.DataSource = null;
+            _grid.Rows.Clear();
+            _grid.DataSource = _vehiculos;
+        }
+
+        private Vehiculo Seleccionado()
+        {
+            if (_vehiculos == null || _grid.CurrentRow == null || _grid.CurrentRow.Index < 0)
+                return null;
+            return _grid.CurrentRow.DataBoundItem as Vehiculo;
+        }
+
+        private void Nuevo()
+        {
+            using (var ed = new FormVehiculoEditor())
+            {
+                if (ed.ShowDialog() == DialogResult.OK)
+                    Recargar();
+            }
+        }
+
+        private void Editar()
+        {
+            var v = Seleccionado();
+            if (v == null)
+            {
+                MessageBox.Show("Seleccione un vehiculo de la lista.", "Proyecto",
+                    MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return;
+            }
+            using (var ed = new FormVehiculoEditor(v))
+            {
+                if (ed.ShowDialog() == DialogResult.OK)
+                    Recargar();
+            }
+        }
+
+        private void Eliminar()
+        {
+            var v = Seleccionado();
+            if (v == null)
+            {
+                MessageBox.Show("Seleccione un vehiculo de la lista.", "Proyecto",
+                    MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return;
+            }
+            if (MessageBox.Show("Esta seguro de eliminar el vehiculo " + v.Placa + "?",
+                    "Confirmar eliminacion", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                VehiculoService.Eliminar(v.Id);
+                Recargar();
+            }
+        }
+    }
+}
