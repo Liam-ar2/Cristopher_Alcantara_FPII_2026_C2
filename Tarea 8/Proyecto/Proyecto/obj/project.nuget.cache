@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "0cOLG07b0sU=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\operator\\Desktop\\Cristopher_Alcantara_FPII_2026_C2\\Tarea 8\\Proyecto\\Proyecto\\Proyecto.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\operator\\.nuget\\packages\\stub.system.data.sqlite.core.netframework\\1.0.118\\stub.system.data.sqlite.core.netframework.1.0.118.nupkg.sha512",
+    "C:\\Users\\operator\\.nuget\\packages\\system.data.sqlite.core\\1.0.118\\system.data.sqlite.core.1.0.118.nupkg.sha512"
+  ],
+  "logs": []
+}

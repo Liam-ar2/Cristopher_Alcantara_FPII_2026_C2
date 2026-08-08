@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="Forms\FormCalculo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormConductorEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormConductores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormCostoEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormCostos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormHistorial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormResultado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormVehiculoEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormVehiculos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
